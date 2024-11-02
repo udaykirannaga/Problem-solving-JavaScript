@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+            let row=5
+            count=1
+            for(i=1;i<=row;i++){
+                str=""
+                for(j=1;j<=i;j++){
+                if(count<10){
+                    str=str+"0"+count+" "
+                    count++
+                }
+                else{
+                    str=str+count+" "
+                    count++
+                }
+                }
+                console.log(str)
+            }
+    </script>
+</body>
+</html>

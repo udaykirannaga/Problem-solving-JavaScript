@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        debugger;
+        let str = "jsprgramepro"
+let sub = "pro"
+for(i=0;i<str.length;i++){
+res=""
+    if(str[i]==sub[0]){
+        is_substr=false
+        for(j=0;j<sub.length;j++){
+            for(k=i;k<i+sub.length;k++){
+                if(sub[j]==str[k]){
+                    res+=sub[j]
+                }
+            }
+        }
+        if(res==sub){
+            is_substr=true
+        }
+    }
+}
+console.log(is_substr)
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let num=6
+        let arr = [97,101,105,111,117]
+        for(i=0;i<num;i++){
+
+            str=""
+            for(sp=1;sp<=num-i;sp++){
+                str=str+" "
+            }
+            for(j=0;j<i;j++){
+                str=str+String.fromCharCode(arr[j])+" "
+                
+            
+            }
+            console.log(str)
+        }
+    </script>
+</body>
+</html>
